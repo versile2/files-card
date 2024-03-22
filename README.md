@@ -4,11 +4,12 @@ This card for [Lovelace](https://www.home-assistant.io/lovelace) on [Home Assist
 
 [![GitHub Release][releases-shield]][releases]
 [![License][license-shield]](LICENSE.md)
+[![hacs_badge](https://img.shields.io/badge/HACS-Default-orange.svg?style=for-the-badge)](https://github.com/hacs/integration)
 
-[![Project Maintenance][maintenance-shield]][maintainer]
+![Project Maintenance][maintenance-shield]
 [![GitHub Activity][commits-shield]][commits]
-
 [![Community Forum][forum-shield]][forum]
+
 [![Github][github]][github]
 [![Discord][discord]][discord]
 
@@ -169,10 +170,9 @@ Add to [HACS](https://hacs.xyz) as a Custom Repo
 
 [Troubleshooting](https://github.com/thomasloven/hass-config/wiki/Lovelace-Plugins)
 
-[commits-shield]: https://img.shields.io/github/commit-activity/y/custom-cards/list-card.svg?style=for-the-badge
+[commits-shield]: https://img.shields.io/github/commit-activity/y/versile2/files-card.svg?style=for-the-badge
 [commits]: https://github.com/versile2/files-card/commits/main
 [discord]: https://discord.gg/2SVz9sPB
-[discord-shield]: https://img.shields.io/discord/330944238910963714.svg?style=for-the-badge
 [forum-shield]: https://img.shields.io/badge/community-forum-brightgreen.svg?style=for-the-badge
 [forum]: https://community.home-assistant.io/t/custom-component-rss-feed-parser/64637
 [license-shield]: https://img.shields.io/github/license/custom-cards/list-card.svg?style=for-the-badge
