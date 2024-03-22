@@ -1,15 +1,17 @@
-# Files Card by [@versile2](https://www.github.com/versile2) modeled from [@iantrich](https://www.github.com/iantrich) List card. Additions originally submitted to the list-cards repository but have not received a response.
+# Files Card by [@versile2](https://www.github.com/versile2) 
+Modeled from [@iantrich](https://www.github.com/iantrich)'s List card. Additions originally submitted to the list-cards repository but have not received a response.
 
-This card for [Lovelace](https://www.home-assistant.io/lovelace) on [Home Assistant](https://www.home-assistant.io/) that gives you a datagrid generated with data from the [feedparser custom component](https://github.com/custom-components/sensor.feedparser) or any other sensor that provides data as a list of attributes. It also displays files from the folder integration and any other sensor attribute with JSON data. It also allows copy/paste of data (beware sensor updates will reset your copy)
+This card is for [Lovelace](https://www.home-assistant.io/lovelace) on [Home Assistant](https://www.home-assistant.io/) that gives you a datagrid generated with data from the [feedparser custom component](https://github.com/custom-components/sensor.feedparser) or any other sensor that provides data as a list of attributes. It also displays files from the folder integration and any other sensor attribute with JSON data. It also allows copy/paste of data. I don't use any feed sensors myself but that functionality was in the original list-card and I chose not to alter it.
 
 ![Project Maintenance][maintenance-shield]
 
+[![GitHub Issues][github-issues-badge]][github-issues]
+[![Community Forum][forum-shield]][forum]
+
 [![GitHub Activity][commits-count-shield]][commits]
 [![GitHub Last Commit][github-shield]][commits]
-[![GitHub Issues][github-issues-badge]][github-issues]
 
 [![License][license-shield]](LICENSE.md)
-[![Community Forum][forum-shield]][forum]
 [![hacs_badge](https://img.shields.io/badge/HACS-Default-orange.svg?style=for-the-badge)](https://github.com/hacs/integration)
 
 [Go to Installation Instructions](#Installation)
@@ -21,13 +23,13 @@ Hey dude! Help me out for a couple of :beers: or a :coffee:!
 
 Great resource for further filtering your feeds is [siftrss](https://siftrss.com/)
 
+## Examples
+From top to bottom: [feedparser](https://github.com/custom-components/sensor.feedparser) | [aftership](https://github.com/custom-components/sensor.aftership) | [untappd](https://github.com/custom-components/sensor.untapped) | [Folder Integration](https://www.home-assistant.io/integrations/folder/) | JSON Sensor - Example at end
 ![example](examples/example1.png)
 ![example](examples/example2.png)
 ![example](examples/example3.png)
 ![example](examples/example4.png)
 ![example](examples/example5.png)
-
-From left to right: [feedparser](https://github.com/custom-components/sensor.feedparser) | [aftership](https://github.com/custom-components/sensor.aftership) | [untappd](https://github.com/custom-components/sensor.untapped)
 
 ## Options
 
@@ -61,7 +63,8 @@ From left to right: [feedparser](https://github.com/custom-components/sensor.fee
 | postfix | string | **Optional** | String to postfix to field.
 
 * Note: If width **and** height are set to "auto", the image will not be resized. If width **or** height are set to "auto", the aspect ratio of the image will be maintained.
-** Note: For the Folder Integration your feed_attribute is file_list and columns available are: path, name, filename, fullpath, and ext
+
+* Note: For the Folder Integration your feed_attribute is file_list and columns available are: path, name, filename, fullpath, and ext
   - Path is just the path to the file not including the filename (e.g. '/config/www/media/files/')
   - Name is the filename including extension or if the name matches the format YYYYMMDDHHmmSS.* it will translate it to human readable date/time in English. (e.g. 'snapshot.jpg or 'Mar 14, 2024, 3:12PM')
   - filename is the filename including extension (e.g. 'snapshot.jpg')
@@ -167,7 +170,7 @@ sensor:
 
 ## Installation
 
-Add to [HACS](https://hacs.xyz) as a Custom Repo
+Add to [HACS](https://hacs.xyz) as a Custom Repo by clicking on CODE above and copy link. Paste into HACS Add Repository. 
 
 [Troubleshooting](https://github.com/thomasloven/hass-config/wiki/Lovelace-Plugins)
 
@@ -178,7 +181,7 @@ Add to [HACS](https://hacs.xyz) as a Custom Repo
 [forum-shield]: https://img.shields.io/badge/community-forum-brightgreen.svg?style=for-the-badge
 [forum]: https://community.home-assistant.io/t/custom-component-rss-feed-parser/64637
 [license-shield]: https://img.shields.io/github/license/custom-cards/list-card.svg?style=for-the-badge
-[maintenance-shield]: https://img.shields.io/badge/maintainer-V%20Johnson-blue.svg?style=for-the-badge?style=for-the-badge
+[maintenance-shield]: https://img.shields.io/badge/Maintainer-V%20Johnson-blue?style=for-the-badge
 [github-shield]: https://img.shields.io/gitea/last-commit/versile2/files-card/main?style=for-the-badge
 [github-issues-badge]: https://img.shields.io/badge/Project-Issues-blue?style=for-the-badge
 [github-issues]: https://github.com/versile2/files-card/issues
