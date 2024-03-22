@@ -12,6 +12,8 @@ This card for [Lovelace](https://www.home-assistant.io/lovelace) on [Home Assist
 [![Community Forum][forum-shield]][forum]
 [![hacs_badge](https://img.shields.io/badge/HACS-Default-orange.svg?style=for-the-badge)](https://github.com/hacs/integration)
 
+[Go to Installation Instructions](#Installation)
+
 ## Support
 Hey dude! Help me out for a couple of :beers: or a :coffee:!
 
@@ -178,5 +180,5 @@ Add to [HACS](https://hacs.xyz) as a Custom Repo
 [license-shield]: https://img.shields.io/github/license/custom-cards/list-card.svg?style=for-the-badge
 [maintenance-shield]: https://img.shields.io/badge/maintainer-V%20Johnson-blue.svg?style=for-the-badge?style=for-the-badge
 [github-shield]: https://img.shields.io/gitea/last-commit/versile2/files-card/main?style=for-the-badge
-[github-issues-badge]: https://img.shields.io/badge/Project%20Issues?style=for-the-badge
+[github-issues-badge]: https://img.shields.io/badge/Project-Issues-blue?style=for-the-badge
 [github-issues]: https://github.com/versile2/files-card/issues
