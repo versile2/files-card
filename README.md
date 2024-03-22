@@ -2,16 +2,15 @@
 
 This card for [Lovelace](https://www.home-assistant.io/lovelace) on [Home Assistant](https://www.home-assistant.io/) that gives you a datagrid generated with data from the [feedparser custom component](https://github.com/custom-components/sensor.feedparser) or any other sensor that provides data as a list of attributes. It also displays files from the folder integration and any other sensor attribute with JSON data. It also allows copy/paste of data (beware sensor updates will reset your copy)
 
-[![GitHub Release][releases-shield]][releases]
-[![License][license-shield]](LICENSE.md)
-[![hacs_badge](https://img.shields.io/badge/HACS-Default-orange.svg?style=for-the-badge)](https://github.com/hacs/integration)
-
 ![Project Maintenance][maintenance-shield]
-[![GitHub Activity][commits-shield]][commits]
-[![Community Forum][forum-shield]][forum]
 
-[![Github][github]][github]
-[![Discord][discord]][discord]
+[![GitHub Activity][commits-count-shield]][commits]
+[![GitHub Last Commit][github-shield]][commits]
+[![GitHub Issues][github-issues-badge]][github-issues]
+
+[![License][license-shield]](LICENSE.md)
+[![Community Forum][forum-shield]][forum]
+[![hacs_badge](https://img.shields.io/badge/HACS-Default-orange.svg?style=for-the-badge)](https://github.com/hacs/integration)
 
 ## Support
 Hey dude! Help me out for a couple of :beers: or a :coffee:!
@@ -170,11 +169,14 @@ Add to [HACS](https://hacs.xyz) as a Custom Repo
 
 [Troubleshooting](https://github.com/thomasloven/hass-config/wiki/Lovelace-Plugins)
 
-[commits-shield]: https://img.shields.io/github/commit-activity/y/versile2/files-card.svg?style=for-the-badge
+[commits-count-shield]: https://img.shields.io/github/commit-activity/t/versile2/files-card?style=for-the-badge
+[commits-pery-shield]: https://img.shields.io/github/commit-activity/y/versile2/files-card?style=for-the-badge
 [commits]: https://github.com/versile2/files-card/commits/main
 [discord]: https://discord.gg/2SVz9sPB
 [forum-shield]: https://img.shields.io/badge/community-forum-brightgreen.svg?style=for-the-badge
 [forum]: https://community.home-assistant.io/t/custom-component-rss-feed-parser/64637
 [license-shield]: https://img.shields.io/github/license/custom-cards/list-card.svg?style=for-the-badge
-[maintenance-shield]: https://img.shields.io/badge/maintainer-Ian%20Richardson%20%40iantrich-blue.svg?style=for-the-badge
-[github]: https://img.shields.io/github/followers/versile2.svg?style=social
+[maintenance-shield]: https://img.shields.io/badge/maintainer-V%20Johnson-blue.svg?style=for-the-badge?style=for-the-badge
+[github-shield]: https://img.shields.io/gitea/last-commit/versile2/files-card/main?style=for-the-badge
+[github-issues-badge]: https://img.shields.io/badge/Project%20Issues?style=for-the-badge
+[github-issues]: https://github.com/versile2/files-card/issues
