@@ -35,7 +35,7 @@ From top to bottom: [feedparser](https://github.com/custom-components/sensor.fee
 
 | Name | Type | Requirement | Description
 | ---- | ---- | ------- | -----------
-| type | string | **Required** | `custom:list-card`
+| type | string | **Required** | `custom:files-card`
 | entity | string | **Required** | The entity_id of the entity you want to show.
 | feed_attribute | string | **Optional** | Attribute containing the feed
 | title | string | **Optional** | Add a custom title to the card.
@@ -90,7 +90,7 @@ From top to bottom: [feedparser](https://github.com/custom-components/sensor.fee
 ### Example Configuration
 
 ```yaml
-type: custom:list-card
+type: custom:files-card
 entity: sensor.engineering_feed
 title: Engineering Feed
 feed_attribute: entries
@@ -109,7 +109,7 @@ columns:
 
 From the folder integration (file_list attribute)
 ```yaml
-type: custom:list-card
+type: custom:files-card
 entity: sensor.driveway
 feed_attribute: file_list
 title: Driveway
@@ -123,7 +123,7 @@ columns:
 
 From a custom JSON sensor
 ```yaml
-type: custom:list-card
+type: custom:files-card
 entity: sensor.weather_links
 feed_attribute: weather_links
 title: Weather Links
